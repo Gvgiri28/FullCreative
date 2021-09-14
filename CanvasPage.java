@@ -41,7 +41,7 @@ public class HtmlCanvasPage{
           	jsExecutor.executorScript("context.strokeRect(86, 347, 278, 102)");
 }
 
-	publick EraseHorizonLine(){
+	public void EraseHorizonLine(){
             	//Erase horizontal line
           	WebElement eraseHorizon= driver.findElement(By.Xpath(obj.getProperty("EraseTool")));
           	eraseHorizon.click();	  
