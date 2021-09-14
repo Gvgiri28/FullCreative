@@ -1,0 +1,4 @@
+Line_Tool = //input[@title="Draw a line"]
+CanvasSpace = imageTemp
+RectangleTool = //input[@title="Draw a rectangle"]
+EraseTool = //input[@title="Use eraser"]
